@@ -1,0 +1,22 @@
+[01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:[m[K In member function ‘[01m[Kvoid ReactiveFollowGap::preprocess_lidar(float*)[m[K’:
+[01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:24:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kranges[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   24 |     void preprocess_lidar([01;35m[Kfloat* ranges[m[K)
+      |                           [01;35m[K~~~~~~~^~~~~~[m[K
+[01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:[m[K In member function ‘[01m[Kvoid ReactiveFollowGap::find_max_gap(float*, int*)[m[K’:
+[01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:32:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kranges[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   32 |     void find_max_gap([01;35m[Kfloat* ranges[m[K, int* indice)
+      |                       [01;35m[K~~~~~~~^~~~~~[m[K
+[01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:32:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindice[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   32 |     void find_max_gap(float* ranges, [01;35m[Kint* indice[m[K)
+      |                                      [01;35m[K~~~~~^~~~~~[m[K
+[01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:[m[K In member function ‘[01m[Kvoid ReactiveFollowGap::find_best_point(float*, int*)[m[K’:
+[01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:38:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kranges[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   38 |     void find_best_point([01;35m[Kfloat* ranges[m[K, int* indice)
+      |                          [01;35m[K~~~~~~~^~~~~~[m[K
+[01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:38:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindice[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   38 |     void find_best_point(float* ranges, [01;35m[Kint* indice[m[K)
+      |                                         [01;35m[K~~~~~^~~~~~[m[K
+[01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:[m[K In member function ‘[01m[Kvoid ReactiveFollowGap::lidar_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:47:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscan_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   47 |     void lidar_callback([01;35m[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr scan_msg[m[K)
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K

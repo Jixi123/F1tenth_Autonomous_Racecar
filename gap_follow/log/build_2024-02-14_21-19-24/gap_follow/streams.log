@@ -1,0 +1,112 @@
+[0.073s] Invoking command in '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /sim_ws/src/lab4/f1tenth_lab4/gap_follow -DCMAKE_INSTALL_PREFIX=/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow
+[0.354s] -- The C compiler identification is GNU 9.4.0
+[0.631s] -- The CXX compiler identification is GNU 9.4.0
+[0.686s] -- Check for working C compiler: /usr/bin/cc
+[1.350s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.359s] -- Detecting C compiler ABI info
+[2.231s] -- Detecting C compiler ABI info - done
+[2.280s] -- Detecting C compile features
+[2.281s] -- Detecting C compile features - done
+[2.346s] -- Check for working CXX compiler: /usr/bin/c++
+[2.927s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.943s] -- Detecting CXX compiler ABI info
+[3.577s] -- Detecting CXX compiler ABI info - done
+[3.619s] -- Detecting CXX compile features
+[3.621s] -- Detecting CXX compile features - done
+[3.685s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.715s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.717s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.096s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.193s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.295s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.332s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.431s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.548s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.552s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.597s] -- Looking for pthread.h
+[5.236s] -- Looking for pthread.h - found
+[5.250s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.953s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.960s] -- Looking for pthread_create in pthreads
+[6.538s] -- Looking for pthread_create in pthreads - not found
+[6.543s] -- Looking for pthread_create in pthread
+[7.155s] -- Looking for pthread_create in pthread - found
+[7.161s] -- Found Threads: TRUE  
+[7.374s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[7.375s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[7.427s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[7.537s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[7.590s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.831s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.227s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.638s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.639s] -- Configured cppcheck include dirs: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/include
+[10.640s] -- Configured cppcheck exclude dirs and/or files: 
+[12.669s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.670s] -- Configured cpplint exclude dirs and/or files: 
+[12.935s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.432s] -- Added test 'lint_cmake' to check CMake code style
+[13.718s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[15.946s] -- Added test 'uncrustify' to check C / C++ code style
+[15.947s] -- Configured uncrustify additional arguments: 
+[16.202s] -- Added test 'xmllint' to check XML markup files
+[16.367s] -- Configuring done
+[16.717s] -- Generating done
+[16.836s] -- Build files have been written to: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow
+[16.844s] Invoked command in '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /sim_ws/src/lab4/f1tenth_lab4/gap_follow -DCMAKE_INSTALL_PREFIX=/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow
+[16.861s] Invoking command in '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow -- -j8 -l8
+[17.052s] [35m[1mScanning dependencies of target reactive_node[0m
+[18.489s] [ 50%] [32mBuilding CXX object CMakeFiles/reactive_node.dir/src/reactive_node.cpp.o[0m
+[20.100s] [01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:[m[K In member function ‘[01m[Kvoid ReactiveFollowGap::preprocess_lidar(float*)[m[K’:
+[20.101s] [01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:24:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kranges[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.102s]    24 |     void preprocess_lidar([01;35m[Kfloat* ranges[m[K)
+[20.103s]       |                           [01;35m[K~~~~~~~^~~~~~[m[K
+[20.105s] [01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:[m[K In member function ‘[01m[Kvoid ReactiveFollowGap::find_max_gap(float*, int*)[m[K’:
+[20.106s] [01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:32:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kranges[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.107s]    32 |     void find_max_gap([01;35m[Kfloat* ranges[m[K, int* indice)
+[20.108s]       |                       [01;35m[K~~~~~~~^~~~~~[m[K
+[20.110s] [01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:32:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindice[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.111s]    32 |     void find_max_gap(float* ranges, [01;35m[Kint* indice[m[K)
+[20.112s]       |                                      [01;35m[K~~~~~^~~~~~[m[K
+[20.113s] [01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:[m[K In member function ‘[01m[Kvoid ReactiveFollowGap::find_best_point(float*, int*)[m[K’:
+[20.114s] [01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:38:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kranges[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.115s]    38 |     void find_best_point([01;35m[Kfloat* ranges[m[K, int* indice)
+[20.116s]       |                          [01;35m[K~~~~~~~^~~~~~[m[K
+[20.117s] [01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:38:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindice[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.118s]    38 |     void find_best_point(float* ranges, [01;35m[Kint* indice[m[K)
+[20.119s]       |                                         [01;35m[K~~~~~^~~~~~[m[K
+[20.120s] [01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:[m[K In member function ‘[01m[Kvoid ReactiveFollowGap::lidar_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[20.121s] [01m[K/sim_ws/src/lab4/f1tenth_lab4/gap_follow/src/reactive_node.cpp:47:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscan_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.123s]    47 |     void lidar_callback([01;35m[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr scan_msg[m[K)
+[20.124s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[20.954s] [100%] [32m[1mLinking CXX executable reactive_node[0m
+[21.466s] [100%] Built target reactive_node
+[21.506s] Invoked command in '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow -- -j8 -l8
+[21.617s] Invoking command in '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow
+[21.637s] -- Install configuration: ""
+[21.663s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/lib/gap_follow/reactive_node
+[21.811s] -- Set runtime path of "/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/lib/gap_follow/reactive_node" to ""
+[21.845s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/environment/pythonpath.sh
+[21.940s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/environment/pythonpath.dsv
+[22.024s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow
+[22.070s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow/__init__.py
+[22.339s] Listing '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow'...
+[22.340s] Compiling '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/lib/python3.8/site-packages/gap_follow/__init__.py'...
+[22.362s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/lib/gap_follow/reactive_node.py
+[22.481s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/ament_index/resource_index/package_run_dependencies/gap_follow
+[22.659s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/ament_index/resource_index/parent_prefix_path/gap_follow
+[22.774s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/environment/ament_prefix_path.sh
+[22.861s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/environment/ament_prefix_path.dsv
+[22.949s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/environment/path.sh
+[23.023s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/environment/path.dsv
+[23.108s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/local_setup.bash
+[23.173s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/local_setup.sh
+[23.251s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/local_setup.zsh
+[23.342s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/local_setup.dsv
+[23.427s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/package.dsv
+[23.535s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/ament_index/resource_index/packages/gap_follow
+[23.663s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/cmake/gap_followConfig.cmake
+[23.751s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/cmake/gap_followConfig-version.cmake
+[23.837s] -- Installing: /sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/package.xml
+[23.900s] Invoked command in '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow

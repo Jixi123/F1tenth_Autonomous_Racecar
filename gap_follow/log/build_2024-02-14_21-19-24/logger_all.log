@@ -1,0 +1,113 @@
+[0.436s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.437s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fbf967343a0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fbf967343a0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fbf96734a00>)
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.501s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.502s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.505s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/sim_ws/src/lab4/f1tenth_lab4/gap_follow'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.555s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'gap_follow'
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'cmake_target' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'cmake_clean_cache' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'cmake_clean_first' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'cmake_force_configure' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'ament_cmake_args' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'catkin_cmake_args' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'gap_follow' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.593s] DEBUG:colcon.colcon_core.verb:Building package 'gap_follow' with the following arguments: {'ament_cmake_args': None, 'build_base': '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow', 'merge_install': False, 'path': '/sim_ws/src/lab4/f1tenth_lab4/gap_follow', 'symlink_install': False, 'test_result_base': None}
+[0.595s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.600s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.600s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/sim_ws/src/lab4/f1tenth_lab4/gap_follow' with build type 'ament_cmake'
+[0.601s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/sim_ws/src/lab4/f1tenth_lab4/gap_follow'
+[0.609s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.609s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.610s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /sim_ws/src/lab4/f1tenth_lab4/gap_follow -DCMAKE_INSTALL_PREFIX=/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow
+[17.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /sim_ws/src/lab4/f1tenth_lab4/gap_follow -DCMAKE_INSTALL_PREFIX=/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow
+[17.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow -- -j8 -l8
+[22.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow -- -j8 -l8
+[22.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow
+[24.504s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gap_follow)
+[24.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /sim_ws/src/lab4/f1tenth_lab4/gap_follow/build/gap_follow
+[24.516s] Level 1:colcon.colcon_core.environment:checking '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow' for CMake module files
+[24.608s] Level 1:colcon.colcon_core.environment:checking '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow' for CMake config files
+[24.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('gap_follow', 'cmake_prefix_path')
+[24.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/hook/cmake_prefix_path.ps1'
+[24.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/hook/cmake_prefix_path.dsv'
+[24.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/hook/cmake_prefix_path.sh'
+[24.780s] Level 1:colcon.colcon_core.environment:checking '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/lib'
+[24.785s] Level 1:colcon.colcon_core.environment:checking '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/bin'
+[24.787s] Level 1:colcon.colcon_core.environment:checking '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/lib/pkgconfig/gap_follow.pc'
+[24.790s] Level 1:colcon.colcon_core.environment:checking '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/lib/python3.8/site-packages'
+[24.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('gap_follow', 'pythonpath')
+[24.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/hook/pythonpath.ps1'
+[24.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/hook/pythonpath.dsv'
+[24.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/hook/pythonpath.sh'
+[24.847s] Level 1:colcon.colcon_core.environment:checking '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/bin'
+[24.850s] INFO:colcon.colcon_core.shell:Creating package script '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/package.ps1'
+[24.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/package.dsv'
+[24.880s] INFO:colcon.colcon_core.shell:Creating package script '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/package.sh'
+[24.895s] INFO:colcon.colcon_core.shell:Creating package script '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/package.bash'
+[24.911s] INFO:colcon.colcon_core.shell:Creating package script '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/package.zsh'
+[24.928s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/colcon-core/packages/gap_follow)
+[25.010s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gap_follow)
+[25.014s] Level 1:colcon.colcon_core.environment:checking '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow' for CMake module files
+[25.103s] Level 1:colcon.colcon_core.environment:checking '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow' for CMake config files
+[25.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('gap_follow', 'cmake_prefix_path')
+[25.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/hook/cmake_prefix_path.ps1'
+[25.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/hook/cmake_prefix_path.dsv'
+[25.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/hook/cmake_prefix_path.sh'
+[25.261s] Level 1:colcon.colcon_core.environment:checking '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/lib'
+[25.266s] Level 1:colcon.colcon_core.environment:checking '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/bin'
+[25.268s] Level 1:colcon.colcon_core.environment:checking '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/lib/pkgconfig/gap_follow.pc'
+[25.270s] Level 1:colcon.colcon_core.environment:checking '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/lib/python3.8/site-packages'
+[25.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('gap_follow', 'pythonpath')
+[25.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/hook/pythonpath.ps1'
+[25.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/hook/pythonpath.dsv'
+[25.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/hook/pythonpath.sh'
+[25.328s] Level 1:colcon.colcon_core.environment:checking '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/bin'
+[25.333s] INFO:colcon.colcon_core.shell:Creating package script '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/package.ps1'
+[25.349s] INFO:colcon.colcon_core.shell:Creating package descriptor '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/package.dsv'
+[25.366s] INFO:colcon.colcon_core.shell:Creating package script '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/package.sh'
+[25.381s] INFO:colcon.colcon_core.shell:Creating package script '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/package.bash'
+[25.395s] INFO:colcon.colcon_core.shell:Creating package script '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/gap_follow/package.zsh'
+[25.408s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/gap_follow/share/colcon-core/packages/gap_follow)
+[25.420s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[25.421s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[25.422s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[25.422s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.455s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[25.456s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[25.456s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[25.457s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[25.460s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[25.462s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[25.466s] INFO:colcon.colcon_core.shell:Creating prefix script '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/local_setup.ps1'
+[25.473s] INFO:colcon.colcon_core.shell:Creating prefix util module '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/_local_setup_util_ps1.py'
+[25.482s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/setup.ps1'
+[25.490s] INFO:colcon.colcon_core.shell:Creating prefix script '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/local_setup.sh'
+[25.498s] INFO:colcon.colcon_core.shell:Creating prefix util module '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/_local_setup_util_sh.py'
+[25.504s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/setup.sh'
+[25.514s] INFO:colcon.colcon_core.shell:Creating prefix script '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/local_setup.bash'
+[25.521s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/setup.bash'
+[25.531s] INFO:colcon.colcon_core.shell:Creating prefix script '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/local_setup.zsh'
+[25.554s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/sim_ws/src/lab4/f1tenth_lab4/gap_follow/install/setup.zsh'
