@@ -1,4 +1,4 @@
-# f1tenth_autonomous_racecar
+# F1tenth_Autonomous_Racecar
 Click into any of the folders to see a more detailed README of the specific algorithm.
 
 Compilation of various algorithms for autonomous racing. Each algorithm was first ran and tuned in a Rviz simulation before transferring to the physical car. Shown below is an example of one such algorithm, pure pursuit, on the physical car.  
