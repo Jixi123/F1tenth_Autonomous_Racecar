@@ -1,4 +1,4 @@
-##Follow the Gap
+## Follow the Gap
 
 One of the simpler algorithms, gap follow takes lidar readings and essentially determines the largest "gap" in between potential obstacles to follow through. However, this can cause issues such as making a 180 and going back
 in the wrong direction when making a sharp turn, as it may see the area the car came from as "the largest gap" as it is turning. This can be resolved by tuning multiple variables and making various optimizations, such as 
